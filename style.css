@@ -1,4 +1,9 @@
-h1 {
-  color: blue;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Sorts Mill Goudy', serif; */
+
+@import url("components/container.css");
+@import url("components/avatars.css");
+@import url("components/buttons.css");
+@import url("components/banners.css");
+@import url("components/cards.css");
+
