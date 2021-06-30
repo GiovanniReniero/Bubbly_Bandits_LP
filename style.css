@@ -1,7 +1,7 @@
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Sorts Mill Goudy', serif; */
 
-@import url("components/container.css");
+@import url("components/containers.css");
 @import url("components/avatars.css");
 @import url("components/buttons.css");
 @import url("components/banners.css");
