@@ -89,3 +89,8 @@
   margin: 8px 16px;
 }
 
+.card_category{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

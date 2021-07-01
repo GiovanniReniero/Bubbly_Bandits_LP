@@ -9,6 +9,7 @@
 @import url("components/testimonials.css");
 @import url("components/navbars.css");
 @import url("components/footers.css");
+@import url("components/forms.css");
 
 body {
   background-color:rgb(248, 249, 250);
