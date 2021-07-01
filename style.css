@@ -8,4 +8,9 @@
 @import url("components/cards.css");
 @import url("components/testimonials.css");
 @import url("components/navbars.css");
+@import url("components/footers.css");
 
+body {
+  background-color:rgb(248, 249, 250)
+  ) ;
+}

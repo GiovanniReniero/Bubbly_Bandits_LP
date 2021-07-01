@@ -23,15 +23,13 @@
 <body>
   
 
-    <!-- <h1>This is Bubbly Bandits! And this is where the banner will be.</h1> -->
     
       <!-- navigation bar -->  
 
-    <!-- <div class="position-sticky"> -->
       <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="images/logos/Glass Only Black on Sky Blue.png" id=nav_logo alt="Bubbly Bandits Logo" class="d-inline-block align-top">
+            <img src="images/logos/Glass Only Black on Nothin.png" id=nav_logo alt="Bubbly Bandits Logo" class="d-inline-block align-top">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -64,12 +62,11 @@
           </div>
         </div>
       </nav>
-    <!-- </div> -->
      
     <div  id="banner" style="background-image: url(images/view.png);">
       <div class="container" >
         <img src="images/Logo transparent White.png" alt="" class="logo">
-        <h1>Prize Winning Italian Wine in a Convenient Package?</h1>
+        <h1>Prize Winning Sparkling Italian Wine in a Convenient Package?</h1>
         <h1>We CAN!</h1>
         <div class="button">
           <a href="#" class = "btn_airbnb">Find out More!</a>
@@ -80,22 +77,30 @@
     
     <div class="card_product container mt-5">
         
-        <img src="images/icons/grape2.svg" alt="" class = "picture_product">
-        <div class="card_stuff">
-          <h2>Lumina Nostrum!</h2>
-          <p>Ambientium, et lumina nostra atmosphaera</p>
+      <div class="card_stuff">
+          <img src="images/icons/grape2.svg" alt="" class="cardIcon firstCard">
+          <div class="cardText">
+            <h2>No loss in fragrance</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eos,  dolore cupiditate eum eveniet esse quidem perferendis voluptatibus aut   adipisci expedita aliquam a, itaque pariatur ea voluptas voluptatum?  Pariatur, veritatis.
+            </p>
+          </div>
         </div>
     
-        <img src="images/icons/beer-can2.svg" alt="" class = "picture_product">
         <div class="card_stuff">
-          <h2>Lumina Nostrum!</h2>
-          <p>Ambientium, et lumina nostra atmosphaera</p>
+          <div class="cardText">
+            <h2>Convenient and Practical</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In eius iure eaque laborum quasi eos omnis fuga, aperiam alias ipsa iste consequuntur ad nam deserunt ea dignissimos neque illo eligendi.</p>
+          </div>
+          <img src="images/icons/portability.svg" alt="" class="cardIcon secondCard">
         </div>
 
-        <img src="images/icons/sustainability.svg" alt="" class = "picture_product">
         <div class="card_stuff">
-          <h2>Lumina Nostrum!</h2>
-          <p>Ambientium, et lumina nostra atmosphaera</p>
+          <img src="images/icons/planet-earth.svg" alt="" class="cardIcon thirdCard">
+          <div class="cardText">
+            <h2>Environmently Friendly</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolorem nesciunt blanditiis ratione repellat eveniet quos necessitatibus accusantium quo quod nobis consequuntur, voluptatum corporis voluptas minima, neque eos sequi nostrum!</p>
+          </div>
         </div>
       </div>  
   
@@ -115,21 +120,24 @@
    <div class="container mt-5">
      <h1>Get in Touch</h1>
      
-    <form action="" class="row g-3">
+    <form action="https://formsubmit.co/nrg11@hotmail.com" method="POST" class="row g-3">
+
+      <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+      <input type="hidden" name="_subject" value="New Interest in Bubbly Bandits!">
 
        <div class="col-md-6">
-        <label for="first_name" class="form-label">First Name</label>
-        <input type="text" id="first_name" class="form-control" name="first_name" required>
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" id="firstName" class="form-control" name="firstName" required>
       </div>
 
       <div class="col-md-6">
-        <label for="second_name" class="form-label">Second Name</label>
-        <input type="text" id="second_name" class="form-control" name="second_name" required>
+        <label for="secondName" class="form-label">Second Name</label>
+        <input type="text" id="secondName" class="form-control" name="secondName" required>
       </div>
 
       <div class="col-md-8">
-        <label for="e_mail" class="form-label">E-mail</label>
-        <input type="email" id="e_mail" name="e_mail" class="form-control" required>
+        <label for="email" class="form-label">E-mail</label>
+        <input type="email" id="email" name="email" class="form-control" required>
       </div>
 
       <div class="col-md-4">
@@ -138,8 +146,8 @@
       </div>
 
       <div class="col-md-12">
-        <label for="comments" class="form-label">Comments</label>
-        <textarea class="form-control" id="comments" name="comments" rows="6" required></textarea>
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
       </div>
 
  
@@ -153,7 +161,8 @@
     
    
     
-    <footer class="container mt-5">
+    <footer class="container-fluid mt-5 footer">
+
       <h1>Hey, footer down here!</h1>
       <!-- instagram and facebook acccount -->
       <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>  
