@@ -1,5 +1,33 @@
-.footer{
-  background-color: #90D7FF;
+footer{
+  background-color: #B8B3BE;
+  border: 1px solid rgb(149, 149, 149);
+  margin-top: 40px;
+  padding: 16px;
+}
 
+.list_inline {
+  text-align: center;
+  /* list-style: none; */
+  padding: 0;
+  /* margin-right: 100px; */
+  /* margin-left: 100px; */
+}
 
+.list_inline li {
+  display : inline-block;
+}
+
+i.fab {
+  font-size: 40px;
+  /* border: 1px solid red; */
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 16px;
+
+}
+
+i.fab:hover {
+  color: darkgray;
+  /* margin-left: 100px; */
+  /* margin-right: 100px; */
 }
