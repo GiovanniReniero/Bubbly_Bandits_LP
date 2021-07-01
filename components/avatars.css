@@ -1,9 +1,7 @@
-.avatar_large{
-  width: 56px;
-  border-radius: 30px;  
-}
 
 .avatar_Xlarge{
-  width: 72px;
-  border-radius: 50%;  
+  width: 160px;
+  border-radius: 50%; 
+  padding: 8px;
+  margin: 8px; 
 }

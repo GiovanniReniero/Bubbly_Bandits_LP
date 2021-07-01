@@ -11,6 +11,22 @@
 @import url("components/footers.css");
 
 body {
-  background-color:rgb(248, 249, 250)
-  ) ;
+  background-color:rgb(248, 249, 250);
+}
+
+
+body p {
+  font-size: 18px;
+  text-align: justify;
+  text-justify:inter-word;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 16px;
+  margin: 16px;
+  color: rgb(100, 100, 100)
+}
+
+body h2 {
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+  color:rgb(50, 50, 50)
 }

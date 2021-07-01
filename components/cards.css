@@ -8,7 +8,8 @@
 }
 
 .card_stuff{
-  border: #B8B3BE;
+  /* border: 1px solid #B8B3BE; */
+  
   border-radius: 8px;
   /* width: 800px; */
   display: flex;
@@ -28,30 +29,43 @@
 
 .cardText {
   font-family: 'Roboto', sans-serif;
+  margin: 16px;
 }
 
-h2 {
-margin: 8px;
+.cardText h2 {
+  /* font-size: 32px; */
+  /* font-weight: bold; */
+  /* color:rgb(50, 50, 50);  */
+  margin: 8px;
 }
 
-p{
+.cardText p {
+  /* color: rgb(100, 100, 100); */
+  /* font-size: 18px; */
+  /* text-align: justify; */
+  /* text-justify:inter-word; */
   margin: 0px 8px 8px 8px ;
 }
 
 
 .card_travel{
-  border: 2px solid green;
-  margin: 24px;
-
+  /* border: 2px solid green; */
+  margin: 16px;
+  border-radius: 8px;
+  border: #B8B3BE;
+  /* box-shadow: 0px 5px 15px rgba(0 ,0, 0, 0.1); */
 }
 
 
-.card_travel p {
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-  margin: 16px;
-  color: rgb(100, 100, 100)
 
+.card_travel p {
+  /* font-size: 18px; */
+  /* text-align: justify; */
+  /* text-justify:inter-word; */
+  /* font-family: 'Roboto', sans-serif; */
+  /* color: rgb(100, 100, 100) */
+  padding-bottom: 16px;
+  margin: 16px;
 }
 
 
@@ -62,13 +76,16 @@ p{
   /* object-position: center;  */
   object-fit:  cover; /* Alternative to background stuff!!!!*/
   border-radius: 8px;
-  border: 2px solid red;
+  /* border-top-right-radius: 8px; */
+  /* border: 2px solid red; */
   
 }
 
 .card_travel h2 {
-  margin: 8px;
-  font-family: 'Roboto', sans-serif;
-  color: rgb(50, 50, 50)
+  /* font-size: 32px; */
+  /* font-family: 'Roboto', sans-serif; */
+  /* color: rgb(50, 50, 50) */
+  text-align: center;
+  margin: 8px 16px;
 }
 
