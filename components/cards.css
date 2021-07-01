@@ -26,7 +26,7 @@
   height: 136px;
 }
 
-.cardText h2 p{
+.cardText {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -38,4 +38,37 @@ p{
   margin: 0px 8px 8px 8px ;
 }
 
+
+.card_travel{
+  border: 2px solid green;
+  margin: 24px;
+
+}
+
+
+.card_travel p {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  margin: 16px;
+  color: rgb(100, 100, 100)
+
+}
+
+
+#grappolo {
+  /* height: 224px; */
+  height: 512px; /* Alternative to background stuff!!!!*/
+  width: 100%; /* Alternative to background stuff!!!!*/
+  /* object-position: center;  */
+  object-fit:  cover; /* Alternative to background stuff!!!!*/
+  border-radius: 8px;
+  border: 2px solid red;
+  
+}
+
+.card_travel h2 {
+  margin: 8px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(50, 50, 50)
+}
 
