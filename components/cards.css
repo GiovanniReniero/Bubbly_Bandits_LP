@@ -1,19 +1,9 @@
-.card_product{
-  display: flex;
-  /* border: solid 2px black; */
-  flex-direction: column;
-  align-items: center;
-  border-radius: 4px;
-  /* box-shadow: 0px 5px 15px rgba(0 ,0, 0, 0.1); */
+#features {
+    border-radius: 4px;
 }
 
 .card_stuff{
-  /* border: 1px solid #B8B3BE; */
   border-radius: 8px;
-  /* width: 800px; */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: 2px solid #BFD0E0;
   margin: 16px;
   box-shadow: 0px 5px 15px rgba(0 ,0, 0, 0.1);
@@ -21,51 +11,35 @@
 
 .cardIcon{
   margin: 16px;
-  /* border: 2px dashed blue; */
   height: 136px;
 }
 
 .cardText {
-  font-family: 'Roboto', sans-serif;
   margin: 16px;
 }
 
 .cardText h2 {
-  /* font-size: 32px; */
-  /* font-weight: bold; */
-  /* color:rgb(50, 50, 50);  */
   margin: 8px;
 }
 
 .cardText p {
-  /* color: rgb(100, 100, 100); */
-  /* font-size: 18px; */
-  /* text-align: justify; */
-  /* text-justify:inter-word; */
   margin: 0px 8px 8px 8px ;
 }
 
+/* Spumante Durello */
 
 .card_travel{
-  /* border: 2px solid green; */
   margin: 16px;
   border-radius: 8px;
   border: #B8B3BE;
-  /* box-shadow: 0px 5px 15px rgba(0 ,0, 0, 0.1); */
 }
 
 .card_travel p {
-  /* font-size: 18px; */
-  /* text-align: justify; */
-  /* text-justify:inter-word; */
-  /* font-family: 'Roboto', sans-serif; */
-  /* color: rgb(100, 100, 100) */
   padding-bottom: 16px;
-  margin: 16px;
+  margin: 16px 16px 32px 16px;
 }
 
-#grappolo {
-  /* height: 224px; */
+#immagine {
   height: 512px; /* Alternative to background stuff!!!!*/
   width: 100%; /* Alternative to background stuff!!!!*/
   /* object-position: center;  */
@@ -73,15 +47,11 @@
   border-radius: 8px;
   /* border-top-right-radius: 8px; */
   /* border: 2px solid red; */
-  
 }
 
 .card_travel h2 {
-  /* font-size: 32px; */
-  /* font-family: 'Roboto', sans-serif; */
-  /* color: rgb(50, 50, 50) */
   text-align: center;
-  margin: 8px 16px;
+  margin: 32px 16px 16px 16px;
 }
 
 .card_category{

@@ -12,16 +12,18 @@
 @import url("components/footers.css");
 @import url("components/forms.css");
 
-body {
+body, htm {
+  height: 100%;  
+}
+
+.transbox {
+  /* image used */
   background-image: url("images/BackGround.png" );
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-color:rgba(248, 249, 250, 0.2); */
-}
-
-.transbox{
+  /* full height */
   height: 100%;
   width: 100%;
   background-color:rgba(248, 249, 250, 0.8);
