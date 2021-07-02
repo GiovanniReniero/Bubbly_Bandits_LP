@@ -28,38 +28,39 @@
 </head>
 
 <body>
-
+  <div class="transbox">
+      
   <!-- navigation bar -->  
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand " href="#">
             <img src="images/logos/Glass Only Black on Nothin.png" id=nav_logo alt="Bubbly Bandits Logo" class="d-inline-block align-top">
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button"      data-bs-toggle="collapse"   data-bs-target="#navbarSupportedContent"     aria-controls="navbarSupportedContent" aria-expanded="false"    aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav text-center ms-auto mb-2 mb-lg-0">
               
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
+              <!-- <li class="nav-item"> -->
+                <!-- <a class="nav-link " href="#">About</a> -->
+              <!-- </li> -->
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#features">Features</a>
               </li>
               
               <li class="nav-item">
-                <a class="nav-link" href="#">Wine</a>
+                <a class="nav-link" href="#wine">Wine</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Testimonials</a>
+                <a class="nav-link" href="#testimonials">Testimonials</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Get in Touch</a>
+                <a class="nav-link" href="#form">Get in Touch</a>
               </li>
               
             </ul>
@@ -74,13 +75,13 @@
         <h1>Prize Winning Sparkling Italian Wine in a Convenient Package?</h1>
         <h1>We CAN!</h1>
         <div class="button">
-          <a href="#" class = "btn_airbnb">Find out More!</a>
+          <a href="#" class = "btn_airbnb" >Find out More!</a>
         </div>
       </div>
   </div> 
   
   <!-- cards  -->
-  <div class="card_product container mt-5">
+  <div class="card_product container mt-5" id="features">
       <div class="card_stuff">
           <img src="images/icons/grape2.svg" alt="" class="cardIcon firstCard">
           <div class="cardText">
@@ -109,10 +110,10 @@
     </div>  
 
   <!-- Durello card -->
-  <div class="container mt-5">
+  <div class="container mt-5" id="wine">
       <div class="card_travel">
         <img src="images/stort.jpg" alt="" id="grappolo">
-        <div id="hgroup_travel">
+        <div id="hgroup_travel" >
             <h2> Spumante Durello </h2>
             <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, enim, ab cupiditate sapiente ipsum neque nesciunt alias id non explicabo eaque? Magnam, laborum rerum officia unde cupiditate consectetur sapiente enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, enim, ab cupiditate sapiente ipsum neque nesciunt alias id non explicabo eaque? Magnam, laborum rerum officia unde cupiditate consectetur sapiente enim?
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, enim, ab cupiditate sapiente ipsum neque nesciunt alias id non explicabo eaque? Magnam, laborum rerum officia unde cupiditate consectetur sapiente enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, enim, ab cupiditate sapiente ipsum neque nesciunt alias id non explicabo eaque? Magnam, laborum rerum officia unde cupiditate consectetur sapiente enim?
@@ -122,9 +123,9 @@
   </div> 
   
   <!-- testimonial -->
-  <div class="container mt-5">
+  <div class="container mt-5" id="testimonials">
       <div class="testimonial">
-        <h2>Testimonials</h2>  
+        <h2 >Testimonials</h2>  
         <img src="images/gioportrait2.jpg" alt=""   class = "avatar_Xlarge">
         <h1>⭐⭐⭐⭐⭐</h2>
         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quibusdam iusto. Numquam commodi culpa, aperiam asperiores similique, aliquid nemo excepturi laborum voluptate aliquam, voluptatem quidem tempora dolorem? Reiciendis, dolorem cum.
@@ -135,7 +136,7 @@
   </div>
   
   <!-- form -->
-  <div class="modulistica container mt-5">
+  <div class="modulistica container mt-5" id="form">
      <h2>Get in Touch</h2>
      
     <form action="https://formsubmit.co/nrg11@hotmail.com" method="POST" class="row g-3">
@@ -193,6 +194,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  
+  </div>
 </body>
 </html>
