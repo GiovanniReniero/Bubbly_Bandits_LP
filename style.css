@@ -18,15 +18,15 @@ body, htm {
 
 .transbox {
   /* image used */
-  background-image: url("images/BackGround.png" );
+  /* background-color:rgba(248, 249, 250, 0.8); */
+  background-image: url("images/BackGround2.png" );
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   /* full height */
   height: 100%;
-  width: 100%;
-  background-color:rgba(248, 249, 250, 0.8);
+  /* width: 100%; */
 }
 
 body p {
