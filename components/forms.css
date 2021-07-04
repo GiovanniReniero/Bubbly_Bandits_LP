@@ -1,13 +1,7 @@
 .modulistica {
-  background-color: #BFD0E0;
+  /* background-color: #BFD0E0; */
+  background-color: rgb(233, 250, 252);
+  border: 1px solid #BFD0E0;
   border-radius: 8px;
-  padding: 16px;
   box-shadow: 0px 5px 15px rgba(0 ,0, 0, 0.1);
-
 }
-
-/* .maca { */
-  /* position: absolute; */
-  /* bottom: -55px; */
-  /* left: 42%; */
-/* } */

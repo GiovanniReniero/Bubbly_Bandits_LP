@@ -2,7 +2,8 @@
 .btn_airbnb {
   text-decoration: none;
   font-size: 24px;
-  background-color:  rgba(93, 253, 203, 0.7);
+  /* background-color:  rgba(93, 253, 203, 0.7); */
+  background-color:  rgb(196, 252, 235);
   /* color:rgb(50, 50, 50); */
   color: gray;
   border-radius: 8px;
@@ -13,6 +14,7 @@
   }
   
   .btn_airbnb:hover {
-  background-color:  rgba(93, 253, 203);
+  /* background-color:  rgba(93, 253, 203); */
+  background-color:  rgba(247, 235, 86);
   font-size: 26px;
   }

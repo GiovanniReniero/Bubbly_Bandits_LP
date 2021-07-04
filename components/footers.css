@@ -5,6 +5,22 @@ footer{
   padding: 16px;
 }
 
+.bix{
+  padding: 8px;
+  margin: 8px 32px;
+}
+
+.logofooter{
+  height: 208px;
+  /* border: 2px solid red; */
+  margin: 8px 4px 2px 4px;
+}
+
+
+.catchprase_footer{
+  height: 72px;
+`}
+
 .list_inline {
   text-align: center;
   /* list-style: none; */
@@ -18,7 +34,7 @@ footer{
 }
 
 i.fab {
-  font-size: 40px;
+  font-size: 54px;
   /* border: 1px solid red; */
   margin-left: 80px;
   margin-right: 80px;
@@ -27,7 +43,7 @@ i.fab {
 }
 
 i.fab:hover {
-  color: darkgray;
+  color: rgba(247, 235, 86);
   /* margin-left: 100px; */
   /* margin-right: 100px; */
 }
